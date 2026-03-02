@@ -1,0 +1,192 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+--color-bg-start: #0d1117;
+--color-bg-end :#161b22;
+--color-icon-box:#161b22;
+--color-border:#30363d;
+--color-decoration:#30363d;
+--color-accent-cyan:#58d4f5;
+--color-accent-purple:#a78bfa;
+--color-text-light:#e6edf3;
+--color-text-muted:#8b949e;
+--pages : #home,#about,#contact,#service;
+}
+
+body {
+    color: var(--color-text-muted);
+    background-color: var(--color-bg-start);
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    display:block;
+    justify-self: center;
+    border-radius: 30px;
+    transition: ease 2.5s;
+    filter: drop-shadow(3px 3px 3px #a78bfa );
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+.nav_bar{
+    background: var(--color-bg-end);
+    display:flex; 
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+}
+.nav_bar :first-child{
+    color: var(--color-accent-purple);
+    margin: 10px;
+    text-decoration: none;
+}
+.nav_bar a:not(.home){
+    color: var(--color-text-muted);
+    text-decoration: none;
+
+}
+.nav_bar a:hover{
+    color: var(--color-text-light) ;
+    filter: drop-shadow(3px 3px 3px var(--color-accent-purple));
+}
+.body{
+    width: 100%;
+    
+}
+.body #home,#about,#contact,#service{
+    background: linear-gradient(270deg, var(--color-bg-start),var(--color-bg-end)
+    );
+    box-shadow: -5px -5px 10px var(--color-accent-purple);
+    border-radius: 10px;
+    width: 95%;
+    height: 400px;
+    margin-left: 10px;
+    background-color: var(--color-text-light);
+    transition: ease 1s;
+}
+.body #home:hover,#about:hover,#contact:hover,#service:hover{
+    transform: scale(1.015);
+    box-shadow: 5px 5px 10px var(--color-accent-purple);
+}
+
+#contact{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+#info{
+    margin: 3px;
+    width: 20%;
+    overflow-x: hidden;
+    transition: ease 1.5s;
+    background: var(--color-accent-purple);
+    color: var(--color-text-light);
+    border-radius: 10px;
+    padding: 5px;
+}
+#info:hover{
+    width: 110%;
+}
+#info:hover #send_mes{
+    width: 5%;
+}
+#send_mes{
+    overflow: hidden;
+    width: 80%;
+}
+#social_handles{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+a{
+    text-decoration: none;
+}
+#message{
+    width: 60%;
+    height: 100px;
+    border-radius: 5px;
+}
+.message{
+    width:415px;
+}
+.name{
+    display: inline-flex;
+}
+.name input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+}
+.submit{
+    position: relative;
+    left: 70px;
+    
+}
+#submit{
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+    background: var(--color-icon-box);
+    box-shadow: -2px -2px 2px var(--color-text-light);
+}
+.form{
+    border-radius: 30px;
+    padding: 20px;
+    background: var(--color-accent-cyan);
+}
+#about{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#technologies{
+    width: 40%;
+}
+#technologies div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#technologies img{
+    width: 20px;
+    height: 20px;
+}
+#technologies h4{
+    margin: 20px;
+}
+.tech_info{
+    width: 60%;
+    border-radius: 20px;
+}
+.tech_info span, .tech_info p{
+    color: var(--color-accent-purple);
+}
+#service{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+#service div{
+    text-align: center;
+    
+}
+.td{
+    background-color: var(--color-accent-purple);
+    color: var(--color-text-light);
+    border-radius: 10px;
+    text-align: center;
+}
+#home{
+    margin: 20px;
+    display: inline-flex;
+}
+.project{
+    display: block;
+}
+.project a{
+    color: var(--color-accent-purple);
+}
