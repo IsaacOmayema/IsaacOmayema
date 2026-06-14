@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on **Temperatuure Converter**
 
-- 💬 Ask me about **HTML,CSS,JS,JESUS,SOUND**
+- 💬 Ask me about **HTML,CSS,JS,JESUS,AUDIO ENGINEERING**
 
 - 📫 How to reach me **isaacomayema@gmail.com**
 
